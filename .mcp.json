@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "autorfp-ai": {
+      "type": "http",
+      "url": "https://api.autorfp.ai/mcp"
+    }
+  }
+}
