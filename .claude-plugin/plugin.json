@@ -1,0 +1,25 @@
+{
+  "name": "autorfp-ai-mcp-plugin",
+  "description": "AutoRFP.ai MCP server plus three bid-team skills: Go/No-Go qualification (rfp-shredder), executive summary generator, and pre-submission contradiction checker. For sales engineers, bid managers, and proposal teams running their RFP process in AutoRFP.ai.",
+  "version": "1.0.0",
+  "author": {
+    "name": "AutoRFP.ai",
+    "email": "support@autorfp.ai"
+  },
+  "homepage": "https://learn.autorfp.ai/en/articles/15029444-how-to-connect-to-ai-assistants-mcp-server",
+  "repository": "https://github.com/AutoRFP/mcp",
+  "license": "MIT",
+  "keywords": [
+    "rfp",
+    "bids",
+    "proposals",
+    "tender",
+    "go-no-go",
+    "compliance-matrix",
+    "sales-engineering",
+    "autorfp",
+    "ddq",
+    "security questionnaire",
+    "mcp"
+  ]
+}
