@@ -1,0 +1,51 @@
+{
+  "name": "AutoRFP.ai",
+  "source": {
+    "source": "github",
+    "repo": "autorfp/autorfp-ai-plugin"
+  },
+  "owner": {
+    "name": "AutoRFP.ai Plugin",
+    "email": "support@autorfp.ai"
+  },
+  "plugins": [
+    {
+      "name": "autorfp-ai-mcp-plugin",
+      "source": "./plugins/autorfp-ai-mcp-plugin",
+      "description": "AutoRFP.ai Plugin for MCP AI RFP Automation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AutoRFP.ai Team"
+      },
+      "homepage": "https://learn.autorfp.ai/en/articles/15029444-how-to-connect-to-ai-assistants-mcp-server",
+      "license": "MIT",
+      "keywords": [
+        "rfp",
+        "bids",
+        "proposals",
+        "tender",
+        "go-no-go",
+        "compliance-matrix",
+        "sales-engineering",
+        "autorfp",
+        "enterprise-sales",
+        "ddq",
+        "security questionnaire"
+      ],
+      "mcpServers": {
+        "autorfp-ai-apac": {
+          "type": "http",
+          "url": "https://api.autorfp.ai/mcp"
+        },
+        "autorfp-ai-eu": {
+          "type": "http",
+          "url": "https://api.eu.autorfp.ai/mcp"
+        },        
+        "autorfp-ai-us": {
+          "type": "http",
+          "url": "https://api.us.autorfp.ai/mcp"
+        }
+      }
+    }
+  ]
+}
