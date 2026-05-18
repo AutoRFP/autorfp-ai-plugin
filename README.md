@@ -1,4 +1,4 @@
-# autorfp-ai-mcp-plugin
+# autorfp-ai-plugin
 
 The Claude plugin that powers AutoRFP.ai inside Claude. See the [repository README](../../README.md) for installation and usage.
 
